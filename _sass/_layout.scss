@@ -1,7 +1,3 @@
-/**
- * Site header
- */
-
 body{
         max-width: 70%;
         margin: 0 auto;
@@ -16,6 +12,11 @@ body{
     margin-top: 4em;
     // Positioning context for the mobile navigation icon
     position: relative;
+     @include media-query($on-palm){
+        margin-top: 0.625em;
+        }
+    
+    
 }
 
 
@@ -34,10 +35,9 @@ body{
     padding: $spacing-unit 0;
     
       @include media-query($on-palm){
-        max-width: 90%;
+        max-width: 100%;
         }
 }
-
 
 
 .post-list {
