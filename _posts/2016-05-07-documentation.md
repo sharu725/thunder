@@ -1,3 +1,11 @@
+---
+layout: post
+title: Documentation
+---
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 # Features
 
 ## Customizable theme
@@ -14,14 +22,14 @@ Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is importa
 After forking the repository, click on **branches**.
 
 
-![delete gh-pages branch](/images/delete-github-branch.png)
+![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch.png)
 
 Delete ``gh-pages`` branch.
-![delete gh-pages branch](/images/delete-github-branch-2.png)
+![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch-2.png)
 
 You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-![create gh-pages branch](/images/create-gh-pages-branch.JPG){: style="border: 1px solid #eee" }
+![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.JPG){: style="border: 1px solid #eee" }
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
@@ -29,12 +37,12 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda thunder jekyll theme](/images/thunder-jekyll-theme.png)
+![webjeda thunder jekyll theme]({{site.baseurl}}/images/thunder-jekyll-theme.png)
 
 This theme is responsive.
 
-![webjeda thunder jekyll responsive theme](/images/thunder-responsive-jekyll-theme.png)
-
+![webjeda thunder jekyll responsive theme]({{site.baseurl}}/images/thunder-responsive-jekyll-theme.png)
+{: style="text-align:center" }
 
 # Customization
 
@@ -49,7 +57,7 @@ color-2: '#F0C419'
 
 {% endhighlight %}
 
-![webjeda sidebar theme](/images/thunder-jekyll-theme-2.png)
+![webjeda sidebar theme]({{site.baseurl}}/images/thunder-jekyll-theme-2.png)
 
 Remember, while developing locally, every change you make in **_config.yml** is applied only if you restart ``jekyll serve`` process.
 

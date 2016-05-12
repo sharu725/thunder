@@ -1,0 +1,231 @@
+/**
+ * Site header
+ */
+
+body{
+        max-width: 70%;
+        margin: 0 auto;
+    
+    @include media-query($on-palm){
+        max-width: 90%;
+        }
+}
+
+.site-header {
+    
+    margin-top: 4em;
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+
+.site-nav {
+    line-height: 56px;
+    display: inline-block;
+
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    margin: 0 auto;
+    max-width: 65%;
+    padding: $spacing-unit 0;
+    
+      @include media-query($on-palm){
+        max-width: 90%;
+        }
+}
+
+
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+
+}
+
+.post-list .post-meta {
+        float: right;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+    h1 {
+        font-size: 42px;
+            @include media-query($on-laptop) {
+                font-size: 36px;
+    }
+    }
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+#logo {
+   fill: $color-1;
+    
+    &:hover{
+        fill: $color-2;
+    } 
+}
+
+.page-link {
+        margin-left: 1em;
+}
+
+.thunder{
+    max-width: 100%
+}
+
+//table
+table {
+  margin: 15px 0;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0; }
+  table tr {
+    border-top: 1px solid $grey-color;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid $grey-color;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid $grey-color;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin: 0; }
+// Adding 'Contents' headline to the TOC
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
+
+// Using numbers instead of bullets for listing
+#markdown-toc ul {
+    list-style: decimal;
+}
+
+#markdown-toc {
+    border: 1px solid $color-1;
+    padding: 1.5em;
+    list-style: decimal;
+    display: inline-block;
+}
+
+//contact form in contact page start
+.contact-li {
+    list-style: none;
+}
+
+.contact-input {
+    border:none;
+    border-bottom: 1px solid #eee;
+    transition-duration: 0.3s;
+    width: 12em;
+}
+
+.contact-input:focus {
+    outline:none;
+    border-bottom: 1px solid $brand-color;
+}
+
+.contact-label {
+    display: block;
+}
+
+ul.contact-ul {
+    margin: 0;
+    padding: 10px;
+}
+
+#submit {
+    border:none;
+    background-color: $brand-color;
+    padding: 5px 15px;
+    color: #eee;
+    opacity: 0.8;
+}
+
+#submit:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+#contact-form {
+    border: 1px solid #aaa;
+    display: inline-flex;
+    margin-bottom: 1em;
+}
+
+//contact form in contact page end
