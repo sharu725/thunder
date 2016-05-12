@@ -37,11 +37,11 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda thunder jekyll theme]({{site.baseurl}}/images/thunder-jekyll-theme.png)
+![webjeda thunder jekyll theme]({{site.baseurl}}/images/thunder-jekyll-theme.jpg)
 
 This theme is responsive.
 
-![webjeda thunder jekyll responsive theme]({{site.baseurl}}/images/thunder-responsive-jekyll-theme.png)
+![webjeda thunder jekyll responsive theme]({{site.baseurl}}/images/thunder-responsive-jekyll-theme.jpg)
 {: style="text-align:center" }
 
 # Customization
@@ -57,7 +57,7 @@ color-2: '#F0C419'
 
 {% endhighlight %}
 
-![webjeda sidebar theme]({{site.baseurl}}/images/thunder-jekyll-theme-2.png)
+![webjeda sidebar theme]({{site.baseurl}}/images/thunder-jekyll-theme-2.jpg)
 
 Remember, while developing locally, every change you make in **_config.yml** is applied only if you restart ``jekyll serve`` process.
 
