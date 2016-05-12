@@ -64,9 +64,3 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 # License
 MIT License
-
-<style>
-    img{
-        border: 1px solid #ddd;
-    }
-</style>
