@@ -41,13 +41,13 @@ This theme is responsive.
 ## Theme
 The theme provides a nice header that can be customized by changing colors in the **_config.yml** file.
 
-{% highlight yaml %}
+<pre>
 
 #color scheme
 color-1: '#E64C3C'
 color-2: '#F0C419' 
 
-{% endhighlight %}
+</pre>
 
 ![webjeda sidebar theme](/images/thunder-jekyll-theme-2.png)
 
@@ -64,3 +64,9 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 # License
 MIT License
+
+<style>
+    img{
+        border: 1px solid #ddd;
+    }
+</style>
