@@ -17,6 +17,18 @@ Since the theme is based on default Jekyll theme, it is very light-weight. No Ja
 
 An example page loads completely in 1.1s!
 
+In a comparision, it loads faster than an amp page made using Jekyll - [amplify](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){: rel="nofollow"}.
+
+[Amplify page](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){: rel="nofollow"} loading speed
+![Amp page loading speed]({{site.baseurl}}/images/webpagetest-jekyll-theme-amplify-example.jpg)
+
+
+[Thunder page](http://webjeda.com/thunder/example/) loading speed
+![Thunder page loading speed]({{site.baseurl}}/images/webpagetest-jekyll-theme-thunder-example.jpg)
+
+Though the contents of the page are different, they are comparable because both pages have one image and thunder example has code, blockquote, table ordered list, unordered list and all headers. That I think is a fair comparision.
+
+
 ## Inline CSS
 Since the style used in this theme is very less, I'm inlining it. This will save a request and hence speeds up website loading.
 
