@@ -5,6 +5,7 @@ The theme can be customized just by changing few variables in **_config.yml** fi
 
 ## Light-weight
 Since the theme is based on default Jekyll theme, it is very light-weight. No JavaScript except analytics is used!
+![jekyll theme thunder speed test](/images/webpagetest-jekyll-theme-thunder.jpg)
 
 
 # Installation
