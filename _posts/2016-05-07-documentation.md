@@ -11,6 +11,9 @@ title: Documentation
 ## Customizable theme
 The theme can be customized just by changing few variables in **_config.yml** file.
 
+## Inline CSS
+Since the style used in this theme is very less, I'm inlining it. This will save a request and hence speeds up website loading.
+
 ## Light-weight
 Since the theme is based on default Jekyll theme, it is very light-weight. No JavaScript except analytics is used!
 ![jekyll theme thunder speed test]({{site.baseurl}}/images/webpagetest-jekyll-theme-thunder.jpg)
@@ -29,8 +32,7 @@ In a comparision, it loads faster than an amp page made using Jekyll - [amplify]
 Though the contents of the page are different, they are comparable because both pages have one image and thunder example has code, blockquote, table ordered list, unordered list and all headers. That I think is a fair comparision.
 
 
-## Inline CSS
-Since the style used in this theme is very less, I'm inlining it. This will save a request and hence speeds up website loading.
+
 
 # Installation
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
