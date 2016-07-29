@@ -6,9 +6,9 @@
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        <a target="_blank" class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">Chatline Phone Numbers</a>
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">60 Free Trial Chatline</a>
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">Gay Chatline</a>
+        <a target="_blank" class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
         {% endif %}
         {% endfor %}     
     </nav>
