@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /chatline/about/
+permalink: /about/
 ---
 
 
