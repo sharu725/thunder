@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+published: true
 ---
 
 I would love to hear from you. Any query, any suggestion or feedback would be great! If you need a website, blog or portfolio site then please leave a message.
@@ -25,7 +26,7 @@ I would love to hear from you. Any query, any suggestion or feedback would be gr
             
         </ul>
         <input type="submit" value="Send" id="submit"/>
-        <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
+        <input type="hidden" name='redirect_to' value="http://shulaba.com/thank-you/" />
         
 </form>
 
