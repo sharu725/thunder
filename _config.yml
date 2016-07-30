@@ -15,7 +15,7 @@ url: "http://webjeda.com" # the base hostname & protocol for your site
 baseurl: '/thunder'
 permalink: /:title/
 
-analytics: UA-71358787-1
+analytics: 
 
 # Color schemes
 color-1: '#3B97D3'
