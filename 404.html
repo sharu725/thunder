@@ -5,27 +5,64 @@
 <title>Pge not Found</title>
 <style type="text/css">
 <!--
-body {
-	background-color: #FFFFFF;
-	background-image: url(/img/gone.jpg);
-	background-repeat: no-repeat;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 45px;
-	margin-bottom: 0px;
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
 }
-body,td,th {
-	font-family: Helvetica, Arial, sans-serif;
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
 }
 -->
 </style></head>
 
 <body>
-<div align="right">
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p><a href="http://chrisglass.com"><img src="/img/404.gif" alt="404" width="225" border="0" height="158" /></a></p>
-  <p>&nbsp;</p>
+	
+<div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="PATH_TO_MP4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="PATH_TO_WEBM" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="PATH_TO_JPEG" alt="">
+        </div>
+    </div>
 </div>
+
 </body>
 </html>
