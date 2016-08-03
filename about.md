@@ -9,7 +9,7 @@ published: true
 {: .clear}
 ![shulaba logo]({{site.baseurl}}/img/bullhorn.svg)Shulaba helps you find some inportant information about gays, such as chat line. All of chat lines are only for gay and free trial.
 
-<img id="author-pic" style="border-radius:50%;float:left;margin-right:0.5em" src="data:image/jpeg;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdGVkIGJ5
+<img id="author-pic" style="border-radius:50%;float:left;margin-right:0.5em,width='80' height='80'" src="data:image/jpeg;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdGVkIGJ5
 IEljb01vb24uaW8gLS0+DQo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEu
 MS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQi
 Pg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIg
