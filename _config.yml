@@ -27,7 +27,11 @@ markdown: kramdown
 
 sass:
     style: compressed
-    
+
+
+disqus-shortname: webjeda-demo
+
+
 #compress.html
 compress_html:
   clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
@@ -38,3 +42,15 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+  
+  
+prose:
+  rooturl: ''
+  siteurl: 'http://prose.github.io/starter/'
+  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes

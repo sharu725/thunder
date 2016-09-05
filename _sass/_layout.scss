@@ -1,3 +1,7 @@
+* {
+    transition-duration: 0.2s;
+}
+
 body{
         max-width: 70%;
         margin: 0 auto;
@@ -229,3 +233,9 @@ ul.contact-ul {
 }
 
 //contact form in contact page end
+
+
+//Disqus look
+.disqus-footer__wrapper {
+    display: none !important;
+}
