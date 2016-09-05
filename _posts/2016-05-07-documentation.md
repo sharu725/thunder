@@ -18,6 +18,12 @@ Since the style used in this theme is very less, I'm inlining it. This will save
 Since the theme is based on default Jekyll theme, it is very light-weight. No JavaScript except analytics is used!
 ![jekyll theme thunder speed test]({{site.baseurl}}/images/webpagetest-jekyll-theme-thunder.jpg)
 
+## Prose editing ready
+You can edit or add blog posts easily using [Prose](http://prose.io).
+
+## Pre-installed Disqus comments
+Disqus is already installed. All you have to do is to sign up with Disqus, get the **disqus-shortname** and update it in the **_config.yml** file.
+
 An example page loads completely in 1.1s!
 
 In a comparision, it loads faster than an amp page made using Jekyll - [amplify](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){: rel="nofollow"}.
