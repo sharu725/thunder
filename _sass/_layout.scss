@@ -167,6 +167,8 @@ table {
       margin: 0; }
     table tr th :last-child, table tr td :last-child {
       margin: 0; }
+
+
 // Adding 'Contents' headline to the TOC
 #markdown-toc::before {
     content: "Contents";
@@ -233,3 +235,78 @@ ul.contact-ul {
 }
 
 //contact form in contact page end
+
+.color-bars{
+    margin: 0 -1em 0 -1em;
+}
+
+.cor {
+    width: 25%;
+    height: 4px;
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+.colr-1{
+background-color: #3498db;
+}
+.colr-2{
+background-color: #f1c40f;
+}
+.colr-3{
+background-color: #2ecc71;
+}
+.colr-4{
+background-color: #e74c3c;
+}
+.colr-5{
+background-color: #9b59b6;
+}
+.colr-6{
+background-color: #1abc9c;
+}
+.colr-7{
+background-color: #e67e22;
+}
+.colr-8{
+background-color: #34495e;
+}
+
+.author {
+    border:none;
+    box-shadow: 0 0 5px #a8a9ab;
+    padding: 1em 1em 0 1em;
+}    
+
+.author-body {
+}
+
+.author-image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.author-about {
+    margin-left: 1em;
+    display: inline-block;
+    @include media-query($on-palm) {
+         margin-left: 0em;
+        display: block;
+    }
+
+}
+.author-about p, .author-about h4 {
+    margin: 0;
+    padding:0;
+}
+
+.cor-head {
+    width: 12.5%;
+    height: 5px;
+    display: inline-block;
+}

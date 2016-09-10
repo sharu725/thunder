@@ -13,4 +13,7 @@ layout: default
   </div>
 
 </article>
-{% include disqus.html %}
+{% include author.html %}
+<br />
+<br />
+{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}

@@ -16,11 +16,16 @@ baseurl: '/thunder'
 permalink: /:title/
 
 analytics: 
+disqus-shortname: webjeda-demo
 
 # Color schemes
 color-1: '#3B97D3'
 color-2: '#26B99A'
 
+# Author pictre 100x100 --> keep it inside img folder.
+author-image: 'author.jpg'
+author-name: 'John Doe' 
+author-about: 'John Doe should be described in a very few words!' 
 
 # Build settings
 markdown: kramdown
@@ -29,7 +34,6 @@ sass:
     style: compressed
 
 
-disqus-shortname: webjeda-demo
 
 
 #compress.html
@@ -54,3 +58,5 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    
+gems: [jekyll-seo-tag]
