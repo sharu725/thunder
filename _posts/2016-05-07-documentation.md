@@ -97,3 +97,10 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 # License
 MIT License
+
+# Changelog
+<pre>
+version 1.0 - Color-bar is now css. SEO improvements. Added an author section.  
+  
+version 0.9 - Minimal design, small and compressed css, built in disqus comments, compressed html, superfast loading UI.
+</pre>
