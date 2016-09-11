@@ -9,3 +9,5 @@ Thunder is a minimal responsive Jekyll theme which uses very less ``html`` and `
 
 
 More themes available here: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes/)
+
+
