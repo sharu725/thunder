@@ -27,3 +27,55 @@ permalink: /contact/
 </form>
 
 This form is setup using [SimpleForm](https://getsimpleform.com){: target="_blank" rel="nofollow"}. You can get your own API token or use other forms deleting this whole form. But remember, php forms will not work on Jekyll.
+
+
+The styles for the form is included in this page. I haven't included it in the main age because it has at least 25 lines of css and it is used only on this page. So including it in main css file doesn't make sense.
+
+
+<style>
+.contact-li {
+    list-style: none;
+}
+
+.contact-input {
+    border:none;
+    border-bottom: 1px solid #eee;
+    transition-duration: 0.3s;
+    width: 12em;
+}
+
+.contact-input:focus {
+    outline:none;
+    border-bottom: 1px solid $brand-color;
+}
+
+.contact-label {
+    display: block;
+}
+
+ul.contact-ul {
+    margin: 0;
+    padding: 10px;
+}
+
+#submit {
+    border:none;
+    background-color: $brand-color;
+    padding: 5px 15px;
+    color: #eee;
+    opacity: 0.8;
+}
+
+#submit:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+#contact-form {
+    border: 1px solid #aaa;
+    display: inline-flex;
+    margin-bottom: 1em;
+}
+
+</style>
