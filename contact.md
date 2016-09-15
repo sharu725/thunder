@@ -46,7 +46,7 @@ The styles for the form is included in this page. I haven't included it in the m
 
 .contact-input:focus {
     outline:none;
-    border-bottom: 1px solid $brand-color;
+    border-bottom: 1px solid {{site.color-1}};
 }
 
 .contact-label {
@@ -60,7 +60,7 @@ ul.contact-ul {
 
 #submit {
     border:none;
-    background-color: $brand-color;
+    background-color: {{site.color-1}};
     padding: 5px 15px;
     color: #eee;
     opacity: 0.8;
