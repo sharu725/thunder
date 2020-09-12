@@ -4,10 +4,14 @@ title: About
 permalink: /about/
 ---
 
+Coding Kids - Introducing coding, in a fun learning experience 
 
-Thunder is a minimal responsive Jekyll theme which uses very less ``html`` and ``css`` code. The page-load is within a second. This Jekyll Theme is suitable for simple blogs.
+Our mission is to teach kids to code by making art and anmiations. 
+
+Do they like to doodle? We will teach them how to with code. 
+Do they like to play with bouncy ball. We will teach them how to with code. 
+Do they like to watch cartoons? We will teach them how to make basic animations with code. 
 
 
-More themes available here: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes/)
 
 
